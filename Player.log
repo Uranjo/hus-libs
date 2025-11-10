@@ -1,0 +1,1543 @@
+Mono path[0] = 'C:/Users/home/Documents/RimWorld/RimWorldWin64_Data/Managed'
+Mono config path = 'C:/Users/home/Documents/RimWorld/MonoBleedingEdge/etc'
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+Initialize engine version: 2022.3.35f1 (011206c7a712)
+[Subsystems] Discovering subsystems at path C:/Users/home/Documents/RimWorld/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: Intel(R) HD Graphics (ID=0x102)
+    Vendor:   Intel
+    VRAM:     128 MB
+    Driver:   9.17.10.4459
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 18.367 seconds
+- Finished resetting the current domain, in  0.025 seconds
+<RI> Initializing input.
+
+<RI> Input initialized.
+
+<RI> Initialized touch support.
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 4 workers.
+UnloadTime: 367.012800 ms
+RimWorld 1.6.4630 rev467
+Fallback handler could not load library C:/Users/home/Documents/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002851790B040.dll
+Fallback handler could not load library C:/Users/home/Documents/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-000002853C1F2080.dll
+[Loading Progress] Loading Progress initialized! Enjoy the rest of your loading experience!
+[HugsLib] version 12.0.0
+Fallback handler could not load library C:/Users/home/Documents/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000028542A82010.dll
+Fallback handler could not load library C:/Users/home/Documents/RimWorld/RimWorldWin64_Data/MonoBleedingEdge/data-0000028542622030.dll
+[Chougou Mechs] 欢迎来到美味女仆宇宙。
+[HAT]: Transpiler of ProcessApparel finished.
+[HAT]:Transpiler of AdjustParms finished. Position:
+AdjustParms - callvirt System.Collections.Generic.List`1[RimWorld.Apparel] get_WornApparel(),
+AdjustParms - stloc.0 null,
+AdjustParms - ldfld System.Collections.Generic.List`1[RimWorld.RenderSkipFlagDef] renderSkipFlags [0],
+AdjustParms - ldfld System.Collections.Generic.List`1[RimWorld.RenderSkipFlagDef] renderSkipFlags [1],
+AdjustParms - ldfld RimWorld.ApparelProperties apparel
+Error while instantiating a mod of type HeadApparelTweaker.HATweakerMod: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.ArgumentException: Label #7 is not marked in method `Verse.PawnRenderTree.AdjustParms_Patch1'
+[Ref 6C94C909]
+  at System.Reflection.Emit.ILGenerator.label_fixup (System.Reflection.MethodBase mb) [0x00053] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Reflection.Emit.DynamicMethod.CreateDynMethod () [0x00056] in <51fded79cd284d4d911c5949aff4cb21>:0 
+(wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+   --- End of inner exception stack trace ---
+[Ref 59786FAA]
+  at HarmonyLib.PatchFunctions.UpdateWrapper (System.Reflection.MethodBase original, HarmonyLib.PatchInfo patchInfo) [0x00094] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at HarmonyLib.PatchProcessor.Patch () [0x000fc] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at HarmonyLib.Harmony.Patch (System.Reflection.MethodBase original, HarmonyLib.HarmonyMethod prefix, HarmonyLib.HarmonyMethod postfix, HarmonyLib.HarmonyMethod transpiler, HarmonyLib.HarmonyMethod finalizer) [0x0002a] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at HeadApparelTweaker.HarmonyPatchA5.PatchAllByHAT (HarmonyLib.Harmony harmony) [0x00178] in <d1f38c24a7854447850cd83c00bf6364>:0 
+<0x285466d2ec0 + 0x0036a> <unknown method>
+(wrapper managed-to-native) System.Reflection.RuntimeConstructorInfo.InternalInvoke(System.Reflection.RuntimeConstructorInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x00005] in <51fded79cd284d4d911c5949aff4cb21>:0 
+   --- End of inner exception stack trace ---
+[Ref 360A2E59]
+  at System.Reflection.RuntimeConstructorInfo.InternalInvoke (System.Object obj, System.Object[] parameters, System.Boolean wrapExceptions) [0x0001a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Reflection.RuntimeConstructorInfo.DoInvoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00086] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Reflection.RuntimeConstructorInfo.Invoke (System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.RuntimeType.CreateInstanceImpl (System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes, System.Threading.StackCrawlMark& stackMark) [0x0022b] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes) [0x0009c] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.Activator.CreateInstance (System.Type type, System.Object[] args) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.LoadedModManager.CreateModClasses () [0x00085] in <f7a9e19fc1544299a67a6692e164bd0c>:0 
+ICanWearThis Harmony Patches Success
+[RimHUD v1.16.6] Initialized
+<color=#66ffb5>[MeleeAnim]</color> Hello, world!
+Build date: 7/27/2025 5:59 PM
+Loaded assemblies (11):
+0BetterFloatMenu, Version=16.0.0.0, Culture=neutral, PublicKeyToken=null,
+0ColourPicker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AMRetextureSupport, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+Meta.Numerics, Version=3.1.0.0, Culture=neutral, PublicKeyToken=67d25c65a6631347,
+ModRequestAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+ModRequestAPI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+Unity.Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=null,
+zAnimationMod, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.FacialAnimationPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null,
+zz.AM.PerformanceOptimizerPatch, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null,
+AM.VehiclesPatch, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+<color=#66ffb5>[MeleeAnim]</color> Scanning 139 mods for animation data...
+<color=#66ffb5>[MeleeAnim]</color> Found 1 mod folders with animation data, total 69 loadable files.
+<color=#66ffb5>[MeleeAnim]</color> [<color=#63e0ff>Facial Animation Patch</color>] Successfully loaded Facial Animation patch.
+<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Perf.Opt]</color> Loaded Performance Optimizer patch!
+<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Perf.Opt]</color> Successfully patched and disabled buggy optimizations.
+<color=#66ffb5>[MeleeAnim]</color> <color=#ffa8fc>[Vehicle Framework Patch]</color> Loaded vehicle framework patch!
+Initializing LightsOut [2025.7.9.20]
+1.6.9373 ::
+[Altered Carbon 2: ReSleeved] version 6.0.2-Sov-rev8
+XML error: <fixedPercentCostL2S>0.8</fixedPercentCostL2S> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <fixedPercentCostS2L>0.15</fixedPercentCostS2L> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <multiplierCostS2S>0.1</multiplierCostS2S> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <fixedPercentCostL2S>0.8</fixedPercentCostL2S> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <fixedPercentCostS2L>0.15</fixedPercentCostS2L> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <multiplierCostS2S>0.1</multiplierCostS2S> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <fixedPercentCostL2S>0.8</fixedPercentCostL2S> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <fixedPercentCostS2L>0.15</fixedPercentCostS2L> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <multiplierCostS2S>0.1</multiplierCostS2S> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <fixedPercentCostL2S>0.8</fixedPercentCostL2S> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <fixedPercentCostS2L>0.15</fixedPercentCostS2L> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+XML error: <multiplierCostS2S>0.1</multiplierCostS2S> doesn't correspond to any field in type SpaceObjectDefModExtension. Context: <li Class="Vehicles.SpaceObjectDefModExtension"><fixedPercentCostL2S>0.8</fixedPercentCostL2S><fixedPercentCostS2L>0.15</fixedPercentCostS2L><multiplierCostS2S>0.1</multiplierCostS2S></li>
+Parsed 5.5 as int.
+Parsed 0.3 as int.
+Parsed 0.3 as int.
+Tried to use an uninitialized DefOf of type DMS_DefOf. DefOfs are initialized right after all defs all loaded. Uninitialized DefOfs will return only nulls. (hint: don't use DefOfs as default field values in Defs, try to resolve them in ResolveReferences() instead)
+XML error: <placingDraggableDimensions>1</placingDraggableDimensions> doesn't correspond to any field in type ThingDef. Context: <ThingDef ParentName="BuildingShipHullBase"><category>Building</category><thingClass>Building</thingClass><soundImpactDefault>BulletImpact_Metal</soundImpactDefault><selectable>true</selectable><drawerType>MapMeshOnly</drawerType><altitudeLayer>Building</altitudeLayer><terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded><repairEffect>Repair</repairEffect><leaveResourcesWhenKilled>false</leaveResourcesWhenKilled><filthLeaving>Filth_RubbleBuilding</filthLeaving><statBases><SellPriceFactor>0.70</SellPriceFactor><WorkToBuild>1500</WorkToBuild><MaxHitPoints>1000</MaxHitPoints><Flammability>0</Flammability></statBases><comps><li><compClass>LightsOut.ThingComps.KeepOnComp</compClass></li><li Class="SaveOurShip2.CompProps_ShipCachePart"><isHull>true</isHull><hermetic>true</hermetic><roof>true</roof></li></comps><passability>Impassable</passability><blockWind>true</blockWind><castEdgeShadows>true</castEdgeShadows><fillPercent>1</fillPercent><blockLight>true</blockLight><canOverlapZones>false</canOverlapZones><staticSunShadowHeight>1.0</staticSunShadowHeight><holdsRoof>true</holdsRoof><killedLeavings><ChunkSlagSteel>1</ChunkSlagSteel></killedLeavings><placeWorkers><li>SaveOurShip2.PlaceWorker_ShipHull</li></placeWorkers><building><isAirtight>true</isAirtight><shipPart>true</shipPart><blueprintGraphicData><texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath></blueprintGraphicData><paintable>true</paintable></building><defName>oracle_Ship_Beam_Holodeck</defName><label>ship hull (holodeck)</label><designatorDropdown>Ship_Beams</designatorDropdown><graphicData><texPath>Things/Building/Linked/HoloDeckWall_Atlas</texPath><graphicClass>Graphic_Single</graphicClass><linkType>CornerFiller</linkType><linkFlags><li>Wall</li><li>Rock</li></linkFlags><damageData><cornerTL>Damage/Corner</cornerTL><cornerTR>Damage/Corner</cornerTR><cornerBL>Damage/Corner</cornerBL><cornerBR>Damage/Corner</cornerBR><edgeTop>Damage/Edge</edgeTop><edgeBot>Damage/Edge</edgeBot><edgeLeft>Damage/Edge</edgeLeft><edgeRight>Damage/Edge</edgeRight></damageData></graphicData><uiIconPath>Things/Building/Linked/HoloDeckWall_MenuIcon</uiIconPath><description>Wall designed for a holodeck.</description><designationCategory>Ship</designationCategory><placingDraggableDimensions>1</placingDraggableDimensions><rotatable>false</rotatable><costList><Steel>14</Steel><Plasteel>3</Plasteel><ComponentIndustrial>1</ComponentIndustrial></costList><researchPrerequisites><li>ShipBasics</li></researchPrerequisites><designationHotKey>Misc1</designationHotKey></ThingDef>
+Mod RedMattis.BetterPrerequisites has multiple WeaponClassDefs named BS_GiantWeapon. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple BigAndSmall.NewFoodCategorys named BS_ChemfuelLike. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple BigAndSmall.PawnDiets named BS_ChemRobotDiet. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple BigAndSmall.PawnDiets named BS_EverythingAndFuel. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple BigAndSmall.PawnDiets named BS_Carnivore. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple BigAndSmall.PawnDiets named BS_Herbivore. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple Verse.HediffDefs named BS_SpiderPersonRace. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple BigAndSmall.ColorSettingDefs named BS_ApparelClr_Default. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple BigAndSmall.ColorSettingDefs named BS_ApparelClr_ColorableRNGFur. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple BigAndSmall.ColorSettingDefs named BS_ApparelClr_ComplimentaryFur. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple BigAndSmall.ColorSettingDefs named BS_ApparelClr_AnalogousFur. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple Verse.ManeuverDefs named BS_Plasma. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple RimWorld.TraitDefs named BS_Giant. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple RimWorld.BackstoryDefs named BS_AnimalBaby. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple RimWorld.BackstoryDefs named BS_AnimalAdult. Skipping.
+Mod RedMattis.BetterPrerequisites has multiple Verse.ToolCapacityDefs named BS_Plasma. Skipping.
+Failed to patch VFEInsectoids 2's Creep with additional genes.
+[Big & Small] Patched 53 PawnRenderNodeProperties to use PawnRenderingProps_Lite for recolorable graphics.
+Remember that you can always disable this again in the mod options.
+Could not resolve cross-reference to Verse.GeneDef named rjw_genes_Necro_genitalia (wanter=genes)
+Could not resolve cross-reference to Verse.GeneDef named rjw_genes_Necro_genitalia (wanter=genes)
+Could not resolve cross-reference to Verse.GeneDef named rjw_genes_Necro_genitalia (wanter=genes)
+Could not resolve cross-reference to Verse.GeneDef named rjw_genes_Necro_genitalia (wanter=genes)
+Config error in VREA_Hardware: Multiple gene categories share the same displayPriorityInXenotype. This can cause display order issues.
+Config error in SelectiveRetextureGenes: Multiple gene categories share the same displayPriorityInXenotype. This can cause display order issues.
+BodyDef BS_SnakeHuman has BodyPartRecord of Torso whose children have more or equal coverage than 100% (100.70%)
+BodyDef BS_JustAHead has BodyPartRecord of Torso whose children have more or equal coverage than 100% (101.60%)
+BodyDef BodyProwler has BodyPartRecord of Torso whose children have more or equal coverage than 100% (101.60%)
+BodyDef M_MechaSnek has BodyPartRecord of BS_MechanicalTorso whose children have more or equal coverage than 100% (100.70%)
+Key binding conflict: MainTab_History and MainTab_AM_LevelSchedule are both bound to F9.
+Key binding conflict: MainTab_AM_LevelSchedule and MainTab_History are both bound to F9.
+[Loading Progress][DEV] Event queue before modification:
+- InitializingInterface ()
+-  ()
+- InitializingInterface ()
+- AM.LoadingText ()
+- AM.LoadingText ()
+[Loading Progress][DEV] Event queue after modification:
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- InitializingInterface ()
+-  ()
+- InitializingInterface ()
+- AM.LoadingText ()
+- AM.LoadingText ()
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+'BC7' is not supported on this platform. Decompressing texture. Use 'SystemInfo.SupportsTextureFormat' C# API to check format support.
+Mod RimPy Mod Manager Database did not load any content. Following load folders were used:
+  - C:\Users\home\Documents\RimWorld\Mods\1847679158
+Texture Hood has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
+Texture Parka has dimensions of 64 x 64, but its mask has 512 x 512. This is not supported, texture will be excluded from atlas
+Texture Duster has dimensions of 64 x 64, but its mask has 512 x 512. This is not supported, texture will be excluded from atlas
+Texture Jacket has dimensions of 64 x 64, but its mask has 512 x 512. This is not supported, texture will be excluded from atlas
+Texture FlakPants has dimensions of 64 x 64, but its mask has 512 x 512. This is not supported, texture will be excluded from atlas
+Texture FlakJacket has dimensions of 64 x 64, but its mask has 512 x 512. This is not supported, texture will be excluded from atlas
+Texture PowerArmor has dimensions of 64 x 64, but its mask has 512 x 512. This is not supported, texture will be excluded from atlas
+Texture Cape has dimensions of 64 x 64, but its mask has 384 x 384. This is not supported, texture will be excluded from atlas
+Texture Robe has dimensions of 64 x 64, but its mask has 512 x 512. This is not supported, texture will be excluded from atlas
+Texture JumpPack has dimensions of 256 x 256, but its mask has 128 x 128. This is not supported, texture will be excluded from atlas
+Texture RoyalRobe has dimensions of 64 x 64, but its mask has 192 x 192. This is not supported, texture will be excluded from atlas
+Texture LadiesHat has dimensions of 64 x 64, but its mask has 192 x 192. This is not supported, texture will be excluded from atlas
+Texture LocustArmor has dimensions of 64 x 64, but its mask has 192 x 192. This is not supported, texture will be excluded from atlas
+Texture GrenadierArmor has dimensions of 64 x 64, but its mask has 384 x 384. This is not supported, texture will be excluded from atlas
+Texture KidRomper has dimensions of 64 x 64, but its mask has 192 x 192. This is not supported, texture will be excluded from atlas
+Texture KidParka has dimensions of 64 x 64, but its mask has 192 x 192. This is not supported, texture will be excluded from atlas
+Texture VacsuitHelmet has dimensions of 278 x 278, but its mask has 64 x 64. This is not supported, texture will be excluded from atlas
+Texture EVA_Lite has dimensions of 128 x 128, but its mask has 384 x 384. This is not supported, texture will be excluded from atlas
+Texture EVA_Helmet has dimensions of 128 x 128, but its mask has 384 x 384. This is not supported, texture will be excluded from atlas
+Texture EVA_Heavy has dimensions of 128 x 128, but its mask has 384 x 384. This is not supported, texture will be excluded from atlas
+Texture EVA_Heavy_Helmet has dimensions of 128 x 128, but its mask has 384 x 384. This is not supported, texture will be excluded from atlas
+Translation data for language English has 120 errors. Generate translation report for more info.
+[Loading Progress][DEV] Event queue before modification:
+- InitializingInterface ()
+-  ()
+- InitializingInterface ()
+- AM.LoadingText ()
+- AM.LoadingText ()
+[Loading Progress][DEV] Event queue after modification:
+- LoadingProgress.CallAll ()
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- InitializingInterface ()
+-  ()
+- InitializingInterface ()
+- AM.LoadingText ()
+- AM.LoadingText ()
+[Loading Progress][DEV] Event queue before modification:
+- LoadingProgress.CallAll ()
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- InitializingInterface ()
+-  ()
+- InitializingInterface ()
+- AM.LoadingText ()
+- AM.LoadingText ()
+[Loading Progress][DEV] Event queue after modification:
+- LoadingProgress.CallAll ()
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- InitializingInterface ()
+-  ()
+- InitializingInterface ()
+- AM.LoadingText ()
+- AM.LoadingText ()
+KCSG has Created 8453 symbolDefs for vanilla and DLCs
+[VehicleFramework] version 1.6.2053
+[SmashPhil.VehicleFramework] Applying compatibility patch for m00nl1ght.GeologicalLandforms. Active: Yes
+[SmashPhil.VehicleFramework] Applying compatibility patch for Jaxe.RimHUD. Active: Yes
+[SmashPhil.VehicleFramework] Applying compatibility patch for kentington.saveourship2. Active: Yes
+SOS2 SteamV2.8.14 active
+Error in static constructor of SaveOurShip2.Setup: System.TypeInitializationException: The type initializer for 'SaveOurShip2.Setup' threw an exception. ---> System.TypeLoadException: Could not load type Vehicles.Patch_MapPawns, Vehicles, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+[Ref FF767721]
+(wrapper managed-to-native) System.MonoCustomAttrs.GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider,System.Type,bool)
+  at System.MonoCustomAttrs.GetCustomAttributesBase (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly) [0x00013] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.MonoCustomAttrs.GetCustomAttributes (System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit) [0x00037] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at System.RuntimeType.GetCustomAttributes (System.Boolean inherit) [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at HarmonyLib.HarmonyMethodExtensions.GetFromType (System.Type type) [0x00000] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+<0x2853d1c77c0 + 0x0009a> <unknown method>
+  at HarmonyLib.Harmony.CreateClassProcessor (System.Type type) [0x00000] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at HarmonyLib.Harmony.<PatchAll>b__10_0 (System.Type type) [0x00000] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at HarmonyLib.CollectionExtensions.Do[T] (System.Collections.Generic.IEnumerable`1[T] sequence, System.Action`1[T] action) [0x00014] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at HarmonyLib.Harmony.PatchAll (System.Reflection.Assembly assembly) [0x00006] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at HarmonyLib.Harmony.PatchAll () [0x0001d] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+<0x285ba6d69a0 + 0x00a8a> <unknown method>
+   --- End of inner exception stack trace ---
+[Ref FFD93F8B]
+(wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at ilyvion.LoadingProgress.StaticConstructorOnStartupUtilityReplacement+<CallAll>d__2.MoveNext () [0x00082] in D:\a\loading-progress\loading-progress\Source\ilyvion.LoadingProgress\StaticConstructorOnStartupUtilityReplacement.cs:31 
+War Crimes Expanded 2 loaded!
+VAC: VoicePackDef VoicePack_DrKleiner has empty painList!
+VAC: VoicePackDef VoicePack_G-Man has empty painList!
+VAC: VoicePackDef VoicePack_G-Man has empty hitList!
+VAC: VoicePackDef VoicePack_Magnusson has empty painList!
+VAC: VoicePackDef VoicePack_Magnusson has empty hitList!
+[RJW] Initializing RimJobWorld 6.0.0
+[RJW-Genes] RJW-Genes loaded
+[Altered Carbon] Activated mod compat for rim.job.world
+[Map Designer for 1.4] Initializing.... 
+[Map Designer] Finding biomes...
+[Map Designer] Applying settings
+[Map Designer] Terrain settings: Default
+[TrueTerrainColors v1.12.21] Loaded cached true colors for 455 terrain defs from file.
+ApparelBodyTypeResolver Patched
+ApparelBodyTypeResolver Patched
+[GeneTools] Transpiling Pawn_StoryTracker.ExposeData
+[GeneTools] Transpile success.
+[GeneTools] Active.
+[GrievousWounds] EBF Enabled?: False
+[TabSorting]: Fixing kitchen room role worker, thanks slippycheeze!
+[TabSorting]: Moved 28 lights to the Lights tab.
+[TabSorting]: Removing DoorTab since its empty now.
+[TabSorting]: Removing ResearchTab since its empty now.
+[TabSorting]: Removing KitchenTab since its empty now.
+[TabSorting]: Removing StorageTab since its empty now.
+[TabSorting]: Removing DecorationTab since its empty now.
+[TabSorting]: Removing HospitalTab since its empty now.
+[TabSorting]: Removing BedroomTab since its empty now.
+[TabSorting]: Removing TableChairsTab since its empty now.
+PickUpAndHaul v1.1.2¼ welcomes you to RimWorld with pointless logspam.
+<color=orange>[LightsOut - Debug]</color> should Modded Glowers specify a target mod?
+<color=orange>[LightsOut - Debug]</color> applying mod compatibility patch: Modded Glowers
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch ShouldBeLitNow for modded glowers
+<color=orange>[LightsOut - Debug]</color>        patching "PipeSystem - CompGlowerOnProcess" to count as a glower
+<color=orange>[LightsOut - Debug]</color>        patching "VEF.Maps - TerrainComp_Glower" to count as a glower
+<color=orange>[LightsOut - Debug]</color>        failed to patch "VEF.Graphics - CompGlower_DirtyMapMesh" to count as a glower; it does not define any known ShouldBeLitNow properties
+<color=orange>[LightsOut - Debug]</color>        patching "VEF.Buildings - CompGlowerExtended" to count as a glower
+<color=orange>[LightsOut - Debug]</color>        patching "DubsBadHygiene - ProperGlowerComp" to count as a glower
+<color=orange>[LightsOut - Debug]</color> applying mod compatibility patch: Ideology
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch Count for RitualOutcomeComp_NumActiveLoudspeakers
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch PostPawnSetup for Loudspeaker
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch Tick for RitualOutcomeComp_NumActiveLoudspeakers
+<color=orange>[LightsOut - Debug]</color> applying mod compatibility patch: DubsBadHygiene
+<color=orange>[LightsOut - Debug]</color> applying mod compatibility patch: Biotech
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch for mech recharger power draw
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch for mech gestator power draw
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch for gene assembly related things
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch for biotech growth vat support
+<color=orange>[LightsOut - Debug]</color>     component applied: Patches for band node support
+<color=orange>[LightsOut - Debug]</color>     component applied: Patches for gene extractors compatibility
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch for subcore scanners
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch waste atomiser
+<color=orange>[LightsOut - Debug]</color> applying mod compatibility patch: SOS2
+<color=orange>[LightsOut - Debug]</color>     component applied: Patch MoveShip to turn off lights after moving
+Transmog: Successfully patched PawnRenderUtility.DrawEquipmentAndApparelExtras.
+Transmog: Successfully patched PawnRenderTree.AdjustParms.
+Transmog: Successfully patched <GetDynamicNodes>d__3.MoveNext.
+Transmog: Successfully patched <GetDynamicNodes>d__3.MoveNext.
+HediffApparel Harmony Patches:
+  Postfix:
+    Pawn_ApparelTracker.Notify_ApparelAdded
+    Pawn_ApparelTracker.Notify_ApparelRemoved
+[Loading Progress][DEV] Event queue before modification:
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- InitializingInterface ()
+-  ()
+- InitializingInterface ()
+- AM.LoadingText ()
+- AM.LoadingText ()
+-  ()
+- Initializing ()
+[Loading Progress][DEV] Event queue after modification:
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- LoadingProgress.ExecuteToExecuteWhenFinished ()
+- InitializingInterface ()
+-  ()
+- InitializingInterface ()
+- AM.LoadingText ()
+- AM.LoadingText ()
+-  ()
+- Initializing ()
+Error in static constructor of SaveOurShip2.Setup: System.TypeInitializationException: The type initializer for 'SaveOurShip2.Setup' threw an exception. ---> System.TypeLoadException: Could not load type Vehicles.Patch_MapPawns, Vehicles, Version=1.6.0.0, Culture=neutral, PublicKeyToken=null while decoding custom attribute: (null)
+[Ref FF767721] Duplicate stacktrace, see ref for original
+   --- End of inner exception stack trace ---
+[Ref 35B00AE0]
+(wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(intptr)
+  at System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor (System.RuntimeTypeHandle type) [0x0002a] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at Verse.StaticConstructorOnStartupUtility.CallAll () [0x00028] in <f7a9e19fc1544299a67a6692e164bd0c>:0 
+    - POSTFIX LunarFramework.Bootstrap: Void LunarFramework.Internal.Patches.Patch_Verse_StaticConstructorOnStartupUtility:CallAll_Postfix()
+    - POSTFIX PerformanceOptimizer.Main: Void PerformanceOptimizer.InitializeMod:Postfix()
+[Map Preview v1.12.21] Failed to apply compatibility patches for Performance Optimizer
+HarmonyLib.HarmonyException: Patching exception in method null ---> System.ArgumentException: Undefined target method for patch method static System.Boolean MapPreview.Compatibility.ModCompat_PerformanceOptimizer::Optimization_WorldGrid_LongLatOf_Prefix()
+[Ref 9F468612]
+  at HarmonyLib.PatchClassProcessor.PatchWithAttributes (System.Reflection.MethodBase& lastOriginal, System.Boolean unpatch) [0x00047] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x0006e] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+   --- End of inner exception stack trace ---
+[Ref 2527475B]
+  at HarmonyLib.PatchClassProcessor.ReportException (System.Exception exception, System.Reflection.MethodBase original) [0x00154] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at HarmonyLib.PatchClassProcessor.Patch () [0x000a0] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at LunarFramework.Patching.PatchGroup.TryPatch (System.Type patchClass) [0x00021] in <7d4e412ddb274eaeb27f836b16310331>:0 
+  at LunarFramework.Patching.PatchGroup.AddPatch (System.Type patchClass) [0x0001d] in <7d4e412ddb274eaeb27f836b16310331>:0 
+  at LunarFramework.Patching.ModCompat.TryApply (LunarFramework.Patching.PatchGroup patchGroup) [0x0003f] in <7d4e412ddb274eaeb27f836b16310331>:0 
+  at LunarFramework.Patching.ModCompat.ApplyAll (System.Reflection.Assembly assembly, LunarFramework.Logging.LogContext logContext, LunarFramework.Patching.PatchGroup patchGroup) [0x0006e] in <7d4e412ddb274eaeb27f836b16310331>:0 
+[Map Preview v1.12.21] Detected potential conflict: The mod "Save Our Ship 2" (ShipInteriorMod2) adds a destructive patch that will likely override or break some functionality of Map Preview.
+Patch method: static System.Boolean SaveOurShip2.GenerateSpaceMapInstead::Prefix()
+Target method: static Verse.Map Verse.MapGenerator::GenerateMap(Verse.IntVec3 mapSize, RimWorld.Planet.MapParent parent, Verse.MapGeneratorDef mapGenerator, System.Collections.Generic.IEnumerable`1<Verse.GenStepWithParams> extraGenStepDefs, System.Action`1<Verse.Map> extraInitBeforeContentGen, System.Boolean isPocketMap, System.Boolean stepDebugger)
+[Geological Landforms v1.7.9] Found landform data in the following mods: Geological Landforms
+[Geological Landforms v1.7.9] Loaded 44 landforms of which 0 are edited and 0 are custom.
+[LunarFramework v1.1.16] Processed 14 Harmony patches in 4321 ms.
+Type FW_Windows probably needs a StaticConstructorOnStartup attribute, because it has a field settingTex of type Texture2D. All assets must be loaded in the main thread.
+Type BGRenderer probably needs a StaticConstructorOnStartup attribute, because it has a field layers of type Texture2D[]. All assets must be loaded in the main thread.
+Type Dialog_AnimationDebugger probably needs a StaticConstructorOnStartup attribute, because it has a field mpb of type MaterialPropertyBlock. All assets must be loaded in the main thread.
+Type AnimRenderer probably needs a StaticConstructorOnStartup attribute, because it has a field DefaultCutout of type Material. All assets must be loaded in the main thread.
+Type VideoPlayerUtil probably needs a StaticConstructorOnStartup attribute, because it has a field go of type GameObject. All assets must be loaded in the main thread.
+Type Building_DuelSpot probably needs a StaticConstructorOnStartup attribute, because it has a field invisible of type Graphic. All assets must be loaded in the main thread.
+Type GrabUtility probably needs a StaticConstructorOnStartup attribute, because it has a field mpb of type MaterialPropertyBlock. All assets must be loaded in the main thread.
+Type GrappleFlyer probably needs a StaticConstructorOnStartup attribute, because it has a field mpb of type MaterialPropertyBlock. All assets must be loaded in the main thread.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 15)
+Unloading 289 unused Assets to reduce memory usage. Loaded Objects now: 82542.
+Total: 8006.596700 ms (FindLiveObjects: 1315.848400 ms CreateObjectMapping: 12.982600 ms MarkObjects: 6622.652600 ms  DeleteObjects: 55.112900 ms)
+
+MVCF successfully applied 47 patches
+[ShipInteriorMod2] Patches on methods annotated as Obsolete were detected by HugsLib: RimWorld.RoyalTitlePermitWorker.AidDisabled
+CharacterEditor v1.6.3 initializing...
+updating labels for english...
+loading pawn slot content from file...
+character editor instance created
+checking editor settings...
+bodysizes genes are active
+CharacterEditor v1.6.3 ...done
+CameraPlus: Found mod at C:\Users\home\Documents\RimWorld\Mods\867467808
+<color=#66ffb5>[MeleeAnim]</color> Potential patch conflicts (19):
+<color=#66ffb5>[MeleeAnim]</color> 
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [Altered.Carbon] Prefix
+  [XMB.AncientMall.MO] Prefix
+Transpilers:
+Postfixes:
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [SmashPhil.VehicleFramework] DisableCachingPawnOverlays
+  [RedMattis.BetterPrerequisites] Prefix
+  [rimworld.Nals.FacialAnimation] PrefixParallelGetPreRenderResults
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [VREAndroidsMod] Prefix
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [VREAndroidsMod] Postfix
+  [co.uk.epicguru.meleeanimation] Postfix
+  [Rimworld.Alite.EBSG.main] RenderPawnAtPostfix
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+  [co.uk.epicguru.meleeanimation] Postfix
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+  [VCR.Mod] Transpiler
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+
+static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [RedMattis.BetterPrerequisites] Postfix
+  [ShipInteriorMod2] Postfix
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [rimworld.Nals.FacialAnimation] PostfixParallelPreDraw
+<color=#66ffb5>[MeleeAnim]</color> Full patch list:
+<color=#66ffb5>[MeleeAnim]</color> 
+static System.Void Verse.PawnRenderUtility::DrawEquipmentAiming(Verse.Thing eq, UnityEngine.Vector3 drawLoc, System.Single aimAngle)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] Prefix
+  [OskarPotocki.VEF] DrawEquipmentAimingPrefix
+  [co.uk.epicguru.meleeanimation] Prefix
+  [Altered.Carbon] Prefix
+  [XMB.AncientMall.MO] Prefix
+Transpilers:
+Postfixes:
+
+Verse.PreRenderResults Verse.PawnRenderer::ParallelGetPreRenderResults(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon, System.Boolean disableCache)
+Prefixes:
+  [OskarPotocki.VEF] Prefix
+  [SmashPhil.VehicleFramework] DisableCachingPawnOverlays
+  [RedMattis.BetterPrerequisites] Prefix
+  [rimworld.Nals.FacialAnimation] PrefixParallelGetPreRenderResults
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+System.Void Verse.PawnRenderer::RenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [VREAndroidsMod] Prefix
+  [net.pardeike.rimworld.mod.camera+] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [VREAndroidsMod] Postfix
+  [co.uk.epicguru.meleeanimation] Postfix
+  [Rimworld.Alite.EBSG.main] RenderPawnAtPostfix
+
+static System.Void Verse.PawnGenerator::GenerateGearFor(Verse.Pawn pawn, Verse.PawnGenerationRequest request)
+Prefixes:
+Transpilers:
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] GenerateGearFor
+  [co.uk.epicguru.meleeanimation] Postfix
+
+virtual System.Boolean RimWorld.Verb_MeleeAttack::TryCastShot()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+  [VCR.Mod] Transpiler
+Postfixes:
+  [PeteTimesSix.SimpleSidearms] TryCastShot
+
+System.Void RimWorld.Building_ProximityDetector::RunDetection()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+
+static System.Collections.Generic.List`1<Verse.FloatMenuOption> RimWorld.FloatMenuMakerMap::GetOptions(System.Collections.Generic.List`1<Verse.Pawn> selectedPawns, UnityEngine.Vector3 clickPos, RimWorld.FloatMenuContext& context)
+Prefixes:
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [RedMattis.BetterPrerequisites] Postfix
+  [ShipInteriorMod2] Postfix
+
+System.Boolean Verse.HediffSet::get_HasHead()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+static System.Boolean RimWorld.InvisibilityUtility::IsPsychologicallyInvisible(Verse.Pawn pawn)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderer::DrawShadowInternal(UnityEngine.Vector3 drawLoc)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderer::ParallelPreRenderPawnAt(UnityEngine.Vector3 drawLoc, System.Nullable`1<Verse.Rot4> rotOverride, System.Boolean neverAimWeapon)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.PawnRenderTree::ParallelPreDraw(Verse.PawnDrawParms parms)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+  [co.uk.epicguru.meleeanimation] Postfix
+  [rimworld.Nals.FacialAnimation] PostfixParallelPreDraw
+
+static Verse.Pawn RimWorld.PawnUtility::PawnBlockingPathAt(Verse.IntVec3 c, Verse.Pawn forPawn, System.Boolean actAsIfHadCollideWithPawnsJob, System.Boolean collideOnlyWithStandingPawns, System.Boolean forPathFinder, System.Boolean useId)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void RimWorld.Pawn_ApparelTracker::Notify_ApparelChanged()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Void Verse.Pawn::DrawGUIOverlay()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+System.Void Verse.Pawn_DrawTracker::Notify_MeleeAttackOn(Verse.Thing Target)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+Verse.BattleLogEntry_MeleeCombat RimWorld.Verb_MeleeAttack::CreateCombatLog(System.Func`2<Verse.ManeuverDef, Verse.RulePackDef> rulePackGetter, System.Boolean alwaysShow)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Void PerformanceOptimizer.Optimization_PawnUtility_IsInvisible::DoPatches()
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+
+virtual System.Void PerformanceOptimizer.Optimization_RefreshRate::DrawSettings(Verse.Listing_Standard section)
+Prefixes:
+  [co.uk.epicguru.meleeanimation] Prefix
+Transpilers:
+Postfixes:
+Unloading 1 Unused Serialized files (Serialized files now loaded: 17)
+<color=#66ffb5>[MeleeAnim]</color> Error generating texture report [Rending claws]: No textures found for path 'Things/Item/Equipment/WeaponMelee/RendingClaws' (Verse.Graphic_Single)
+<color=#66ffb5>[MeleeAnim]</color> PreCached all retexture info in 1182.3ms
+<color=#66ffb5>[MeleeAnim]</color> Failed to get texture report for MeleeWeapon_RendingClaws: No textures found for path 'Things/Item/Equipment/WeaponMelee/RendingClaws' (Verse.Graphic_Single)
+<color=#66ffb5>[MeleeAnim]</color> Loaded tweak data for 76 weapons.
+<color=#66ffb5>[MeleeAnim]</color> ludeon.rimworld.odyssey 'Odyssey' has 2 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> redmattis.betterprerequisites 'Big and Small - Framework' has 1 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> zal.taofc 'The Army Of Fetid Corpses (Continued)' has 4 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> chougou.chougoumechs.core 'Chougou Mechs' has 1 missing weapon tweak data.
+<color=#66ffb5>[MeleeAnim]</color> Skipping reporting of missing mod/weapons because user opted out or the feature is disabled by the developer.
+<color=#66ffb5>[MeleeAnim]</color> Patched 3 classes that directly inherit from Verb_MeleeAttack in 291.4 ms to detect hits:
+RimWorld.Verb_MeleeApplyHediff from Assembly-CSharp
+RimWorld.Verb_MeleeAttackDamage from Assembly-CSharp
+Fortified.Verb_MeleeSweep from Fortified
+<color=#66ffb5>[MeleeAnim]</color> Found 12 items of clothing that cover hands, took 1.33 ms:
+PS2BO_body_Light (NS light power armor),
+PS2BO_body_Default (NS Standard power armor),
+PS2BO_body_Heavy (NS Heavy assault power armor),
+PS2BO_body_Engineer (NS Engineer power armor),
+PS2BO_body_Medic (NS Medic power armor),
+DMS_Apparel_HazardSuit (Hazard Suit),
+DMS_Apparel_PowerSkeleton (Powered Exoskeletal Unit),
+Apparel_SpaceSuitBody (EVA suit),
+Apparel_SpaceSuitBodyChild (Kid EVA suit),
+Apparel_SpaceSuitBodyHeavy (Heavy EVA suit),
+PrisonerChains (Chains),
+AC_EnviroSuit (Enviro suit)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 82714.
+Total: 1616.315100 ms (FindLiveObjects: 10.067500 ms CreateObjectMapping: 10.270800 ms MarkObjects: 1595.691600 ms  DeleteObjects: 0.284900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 17)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82714.
+Total: 1605.971300 ms (FindLiveObjects: 11.571300 ms CreateObjectMapping: 10.559000 ms MarkObjects: 1583.576100 ms  DeleteObjects: 0.264400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 17)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82714.
+Total: 1437.604300 ms (FindLiveObjects: 11.547900 ms CreateObjectMapping: 10.114900 ms MarkObjects: 1415.694600 ms  DeleteObjects: 0.246300 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 17)
+CE is trying to create default parameter lists ...
+creating default parameter list for genes...
+1244 default entities for genes created
+creating default parameter list for objects...
+5547 default entities for objects created
+creating default parameter list for turrets...
+41 default entities for turrets created
+...lists created
+CE is trying to apply modified parameters...
+no modifications for genes
+no modifications for objects
+no modifications for lifestages
+...done
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 82724.
+Total: 1502.083400 ms (FindLiveObjects: 8.739600 ms CreateObjectMapping: 9.443500 ms MarkObjects: 1483.665500 ms  DeleteObjects: 0.234300 ms)
+
+Starting patches: 894 - 11/10/2025 11:01:04 AM
+Finished transpiling 893 methods - 11/10/2025 11:01:31 AM
+[HugsLib][ERR] HTTP/1.1 400 Bad Request
+  at System.Environment.get_StackTrace () [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at HugsLib.Logs.LogPublisher.OnRequestError (System.String errorMessage) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Logs.LogPublisher.<BeginUpload>b__32_0 (System.Exception ex) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.HugsLibUtility+<>c__DisplayClass22_0.<AwaitUnityWebResponse>b__0 () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.DoLaterScheduler.InvokeCallbacks (System.Collections.Generic.Queue`1[T] queue) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.DoLaterScheduler.OnUpdate () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.HugsLibController.OnUpdate () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Patches.Root_Patch.UpdateHook () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at MonoMod.Utils.DynamicMethodDefinition.Verse.Root.Update_Patch1 (Verse.Root ) [0x00000] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at Verse.Root_Entry.Update () [0x00000] in <f7a9e19fc1544299a67a6692e164bd0c>:0 
+[HugsLib][warn] Exception during log publishing (gist creation): System.Exception: HTTP/1.1 400 Bad Request
+[Ref D9420B1B]
+  at HugsLib.Utils.HugsLibUtility+<>c__DisplayClass22_0.<AwaitUnityWebResponse>b__0 () [0x000aa] in <e92fb9c535b84355b807623efc376846>:0 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 82725.
+Total: 1431.631300 ms (FindLiveObjects: 11.674800 ms CreateObjectMapping: 9.447900 ms MarkObjects: 1410.261900 ms  DeleteObjects: 0.246500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 17)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 82725.
+Total: 1470.331300 ms (FindLiveObjects: 11.071800 ms CreateObjectMapping: 9.533400 ms MarkObjects: 1449.476900 ms  DeleteObjects: 0.248500 ms)
+
+Texture 'QuickCopy' has dimensions (81 x 88) which are not multiples of 4. Compress will not work.
+[HugsLib][ERR] HTTP/1.1 403 Forbidden
+  at System.Environment.get_StackTrace () [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at HugsLib.Logs.LogPublisher.OnRequestError (System.String errorMessage) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Logs.LogPublisher.<BeginUpload>b__32_0 (System.Exception ex) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.HugsLibUtility+<>c__DisplayClass22_0.<AwaitUnityWebResponse>b__0 () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.DoLaterScheduler.InvokeCallbacks (System.Collections.Generic.Queue`1[T] queue) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.DoLaterScheduler.OnUpdate () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.HugsLibController.OnUpdate () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Patches.Root_Patch.UpdateHook () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at MonoMod.Utils.DynamicMethodDefinition.Verse.Root.Update_Patch1 (Verse.Root ) [0x00000] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at Verse.Root_Entry.Update () [0x00000] in <f7a9e19fc1544299a67a6692e164bd0c>:0 
+[HugsLib][warn] Exception during log publishing (gist creation): System.Exception: HTTP/1.1 403 Forbidden
+[Ref D9420B1B] Duplicate stacktrace, see ref for original
+[HugsLib][ERR] HTTP/1.1 403 Forbidden
+  at System.Environment.get_StackTrace () [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at HugsLib.Logs.LogPublisher.OnRequestError (System.String errorMessage) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Logs.LogPublisher.<BeginUpload>b__32_0 (System.Exception ex) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.HugsLibUtility+<>c__DisplayClass22_0.<AwaitUnityWebResponse>b__0 () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.DoLaterScheduler.InvokeCallbacks (System.Collections.Generic.Queue`1[T] queue) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.DoLaterScheduler.OnUpdate () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.HugsLibController.OnUpdate () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Patches.Root_Patch.UpdateHook () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at MonoMod.Utils.DynamicMethodDefinition.Verse.Root.Update_Patch1 (Verse.Root ) [0x00000] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at Verse.Root_Entry.Update () [0x00000] in <f7a9e19fc1544299a67a6692e164bd0c>:0 
+[HugsLib][warn] Exception during log publishing (gist creation): System.Exception: HTTP/1.1 403 Forbidden
+[Ref D9420B1B] Duplicate stacktrace, see ref for original
+Unloading 2 Unused Serialized files (Serialized files now loaded: 17)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 82727.
+Total: 1416.784100 ms (FindLiveObjects: 10.749200 ms CreateObjectMapping: 9.700000 ms MarkObjects: 1396.017700 ms  DeleteObjects: 0.316700 ms)
+
+[HugsLib][ERR] HTTP/1.1 403 Forbidden
+  at System.Environment.get_StackTrace () [0x00000] in <51fded79cd284d4d911c5949aff4cb21>:0 
+  at HugsLib.Logs.LogPublisher.OnRequestError (System.String errorMessage) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Logs.LogPublisher.<BeginUpload>b__32_0 (System.Exception ex) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.HugsLibUtility+<>c__DisplayClass22_0.<AwaitUnityWebResponse>b__0 () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.DoLaterScheduler.InvokeCallbacks (System.Collections.Generic.Queue`1[T] queue) [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Utils.DoLaterScheduler.OnUpdate () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.HugsLibController.OnUpdate () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at HugsLib.Patches.Root_Patch.UpdateHook () [0x00000] in <e92fb9c535b84355b807623efc376846>:0 
+  at MonoMod.Utils.DynamicMethodDefinition.Verse.Root.Update_Patch1 (Verse.Root ) [0x00000] in <8124cc12bdf242eab0a5f7e7edecf387>:0 
+  at Verse.Root_Entry.Update () [0x00000] in <f7a9e19fc1544299a67a6692e164bd0c>:0 
+[HugsLib][warn] Exception during log publishing (gist creation): System.Exception: HTTP/1.1 403 Forbidden
+[Ref D9420B1B] Duplicate stacktrace, see ref for original
+ground Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_ReadCacheIndex]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_EnlightenWorker] x 2
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_UnityGfxDeviceWorker]
+      Initial Block Size 256.0 KB
+      Current Block Size 260.0 KB
+      Peak Allocated Bytes 256.0 KB
+      Overflow Count 160
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 3
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 138 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 507 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 480 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 54 B
+      Overflow Count 0
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 47111
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 97705
+        32B: 34 Subsections = 17408 buckets. Failed count: 94040
+        48B: 49 Subsections = 16725 buckets. Failed count: 211369
+        64B: 40 Subsections = 10240 buckets. Failed count: 65211
+        80B: 85 Subsections = 17408 buckets. Failed count: 163196
+        96B: 28 Subsections = 4778 buckets. Failed count: 48468
+        112B: 10 Subsections = 1462 buckets. Failed count: 20462
+        128B: 6 Subsections = 768 buckets. Failed count: 8709
+    [ALLOC_DEFAULT_MAIN]
+      Peak usage frame count: [16.0 MB-32.0 MB]: 12575 frames, [32.0 MB-64.0 MB]: 1 frames, [64.0 MB-128.0 MB]: 5 frames, [128.0 MB-256.0 MB]: 9 frames, [256.0 MB-0.50 GB]: 1 frames, [0.50 GB-1.00 GB]: 2 frames, [1.00 GB-2.00 GB]: 5638 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 105
+      Peak Allocated memory 1.76 GB
+      Peak Large allocation bytes 159.2 MB
+    [ALLOC_DEFAULT_THREAD]
+      Peak usage frame count: [8.0 MB-16.0 MB]: 18222 frames, [16.0 MB-32.0 MB]: 6 frames, [32.0 MB-64.0 MB]: 3 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 2
+      Peak Allocated memory 56.3 MB
+      Peak Large allocation bytes 40.0 MB
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 0
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 67
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 6
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 312
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 97705
+        32B: 34 Subsections = 17408 buckets. Failed count: 94040
+        48B: 49 Subsections = 16725 buckets. Failed count: 211369
+        64B: 40 Subsections = 10240 buckets. Failed count: 65211
+        80B: 85 Subsections = 17408 buckets. Failed count: 163196
+        96B: 28 Subsections = 4778 buckets. Failed count: 48468
+        112B: 10 Subsections = 1462 buckets. Failed count: 20462
+        128B: 6 Subsections = 768 buckets. Failed count: 8709
+    [ALLOC_GFX_MAIN]
+      Peak usage frame count: [128.0 KB-256.0 KB]: 1 frames, [2.0 MB-4.0 MB]: 12575 frames, [4.0 MB-8.0 MB]: 2272 frames, [8.0 MB-16.0 MB]: 352 frames, [16.0 MB-32.0 MB]: 3023 frames, [32.0 MB-64.0 MB]: 4 frames, [64.0 MB-128.0 MB]: 2 frames, [128.0 MB-256.0 MB]: 1 frames, [256.0 MB-0.50 GB]: 1 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 7
+      Peak Allocated memory 433.0 MB
+      Peak Large allocation bytes 426.5 MB
+    [ALLOC_GFX_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 13491 frames, [1.0 KB-2.0 KB]: 1121 frames, [2.0 KB-4.0 KB]: 2574 frames, [4.0 KB-8.0 KB]: 151 frames, [8.0 KB-16.0 KB]: 894 frames
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 13.4 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 238
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 97705
+        32B: 34 Subsections = 17408 buckets. Failed count: 94040
+        48B: 49 Subsections = 16725 buckets. Failed count: 211369
+        64B: 40 Subsections = 10240 buckets. Failed count: 65211
+        80B: 85 Subsections = 17408 buckets. Failed count: 163196
+        96B: 28 Subsections = 4778 buckets. Failed count: 48468
+        112B: 10 Subsections = 1462 buckets. Failed count: 20462
+        128B: 6 Subsections = 768 buckets. Failed count: 8709
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Peak usage frame count: [4.0 MB-8.0 MB]: 1 frames, [8.0 MB-16.0 MB]: 12935 frames, [16.0 MB-32.0 MB]: 5295 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 6
+      Peak Allocated memory 19.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 12690 frames, [16.0 KB-32.0 KB]: 48 frames, [32.0 KB-64.0 KB]: 1 frames, [64.0 KB-128.0 KB]: 207 frames, [128.0 KB-256.0 KB]: 79 frames, [256.0 KB-0.5 MB]: 5079 frames, [0.5 MB-1.0 MB]: 127 frames
+      Requested Block Size 4.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.6 MB
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 4.0 MB
+      Used Block count 1
+      Peak Allocated bytes 4.0 MB
+      Failed Allocations. Bucket layout:
+        16B: 4 Subsections = 4096 buckets. Failed count: 97705
+        32B: 34 Subsections = 17408 buckets. Failed count: 94040
+        48B: 49 Subsections = 16725 buckets. Failed count: 211369
+        64B: 40 Subsections = 10240 buckets. Failed count: 65211
+        80B: 85 Subsections = 17408 buckets. Failed count: 163196
+        96B: 28 Subsections = 4778 buckets. Failed count: 48468
+        112B: 10 Subsections = 1462 buckets. Failed count: 20462
+        128B: 6 Subsections = 768 buckets. Failed count: 8709
+    [ALLOC_TYPETREE_MAIN]
+      Peak usage frame count: [4.0 KB-8.0 KB]: 1 frames, [8.0 KB-16.0 KB]: 12570 frames, [16.0 KB-32.0 KB]: 1 frames, [32.0 KB-64.0 KB]: 1 frames, [128.0 KB-256.0 KB]: 25 frames, [256.0 KB-0.5 MB]: 69 frames, [0.5 MB-1.0 MB]: 5564 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 1
+      Peak Allocated memory 0.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Peak usage frame count: [0-1.0 KB]: 18231 frames
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+
